@@ -2,28 +2,28 @@
 class Qq < Formula
   desc "AI coding agents in one binary"
   homepage "https://github.com/retsu-AI/qq"
-  version "0.1.8"
+  version "0.1.9"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/retsu-AI/qq/releases/download/v0.1.8/qq-v0.1.8-aarch64-apple-darwin.tar.gz"
-      sha256 "31d7b53e30cd6337d97fe72a646691463b56feb3ed2fcdad5982781da7347242"
+      url "https://github.com/retsu-AI/qq/releases/download/v0.1.9/qq-v0.1.9-aarch64-apple-darwin.tar.gz"
+      sha256 "cad5a8d862f4c82cb3b73a47cfb3d4a417f892b6b47c316937b1c52e03e8aad4"
     end
     on_intel do
-      url "https://github.com/retsu-AI/qq/releases/download/v0.1.8/qq-v0.1.8-x86_64-apple-darwin.tar.gz"
-      sha256 "0cb2ee9c69436a365452924aa2bcffef4e15a5f69e4803f8d1833df17675ba38"
+      url "https://github.com/retsu-AI/qq/releases/download/v0.1.9/qq-v0.1.9-x86_64-apple-darwin.tar.gz"
+      sha256 "b19df1c38df28ee7702461d433a22cd2742fec6509a57957e9898c732a7317ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/retsu-AI/qq/releases/download/v0.1.8/qq-v0.1.8-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "c1ed89d114dfcbe3a46bf2f1bdbdccb76cdab01f08b0ab681745ec6a90572ecf"
+      url "https://github.com/retsu-AI/qq/releases/download/v0.1.9/qq-v0.1.9-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "817167c21487fade80a90d28d2297fad13916a2b4790c721da1ff8625d354a66"
     end
     on_intel do
-      url "https://github.com/retsu-AI/qq/releases/download/v0.1.8/qq-v0.1.8-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "079de96a31e5f64857e3b32426d8913feab30088683c2da5239f8606c5718314"
+      url "https://github.com/retsu-AI/qq/releases/download/v0.1.9/qq-v0.1.9-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3dda0767488c53bdcf2b4a644c270b2e2de840b8adb3e7e313e7ed28e05c48af"
     end
   end
 
